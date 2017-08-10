@@ -16,7 +16,7 @@ class MealTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.leftBarButtonItem = editButtonItem
-        
+        navigationItem.title = NSLocalizedString ("Your Meals", comment: "")
         if let savedMeals = loadMeals(){
             meals += savedMeals
         }

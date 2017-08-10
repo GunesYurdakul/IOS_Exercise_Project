@@ -29,6 +29,9 @@ class MealViewController: UIViewController,  UITextFieldDelegate, UIImagePickerC
             photoImageView.image = meal.photo
             ratingControl.rating = meal.rating
         }
+        else{
+            navigationItem.title = NSLocalizedString ("New Meal", comment: "")
+        }
         nameTextField.placeholder = NSLocalizedString("enter", comment: "")
         upateSaveButtonState()
         // Do any additional setup after loading the view, typically from a nib.
