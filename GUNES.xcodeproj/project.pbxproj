@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BF4FA1061F389A4D00CEA1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA1051F389A4D00CEA1CF /* AppDelegate.swift */; };
-		BF4FA1081F389A4D00CEA1CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA1071F389A4D00CEA1CF /* ViewController.swift */; };
+		BF4FA1081F389A4D00CEA1CF /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA1071F389A4D00CEA1CF /* MealViewController.swift */; };
 		BF4FA10B1F389A4D00CEA1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4FA1091F389A4D00CEA1CF /* Main.storyboard */; };
 		BF4FA10D1F389A4D00CEA1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4FA10C1F389A4D00CEA1CF /* Assets.xcassets */; };
 		BF4FA1101F389A4D00CEA1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4FA10E1F389A4D00CEA1CF /* LaunchScreen.storyboard */; };
 		BF4FA11B1F389A4E00CEA1CF /* GUNESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA11A1F389A4E00CEA1CF /* GUNESTests.swift */; };
 		BF4FA1301F3A05E900CEA1CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4FA12E1F3A05E900CEA1CF /* Localizable.strings */; };
 		BF4FA1331F3A0B0400CEA1CF /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA1321F3A0B0400CEA1CF /* RatingControl.swift */; };
+		BF51A0101F3AFC160033E1D4 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A00F1F3AFC160033E1D4 /* Meal.swift */; };
+		BF51A0121F3B06AE0033E1D4 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0111F3B06AE0033E1D4 /* MealTableViewCell.swift */; };
+		BFF826981F3B2DF30079C183 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF826971F3B2DF30079C183 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 /* Begin PBXFileReference section */
 		BF4FA1021F389A4D00CEA1CF /* GUNES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUNES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4FA1051F389A4D00CEA1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF4FA1071F389A4D00CEA1CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF4FA1071F389A4D00CEA1CF /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		BF4FA10A1F389A4D00CEA1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF4FA10C1F389A4D00CEA1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4FA10F1F389A4D00CEA1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +46,9 @@
 		BF4FA12F1F3A05E900CEA1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BF4FA1311F3A05F600CEA1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BF4FA1321F3A0B0400CEA1CF /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
+		BF51A00F1F3AFC160033E1D4 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BF51A0111F3B06AE0033E1D4 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = ../MealTableViewCell.swift; sourceTree = "<group>"; };
+		BFF826971F3B2DF30079C183 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +90,12 @@
 		BF4FA1041F389A4D00CEA1CF /* GUNES */ = {
 			isa = PBXGroup;
 			children = (
+				BF51A0111F3B06AE0033E1D4 /* MealTableViewCell.swift */,
 				BF4FA1321F3A0B0400CEA1CF /* RatingControl.swift */,
-				BF4FA1071F389A4D00CEA1CF /* ViewController.swift */,
+				BF51A00F1F3AFC160033E1D4 /* Meal.swift */,
+				BF4FA1071F389A4D00CEA1CF /* MealViewController.swift */,
 				BF4FA1051F389A4D00CEA1CF /* AppDelegate.swift */,
+				BFF826971F3B2DF30079C183 /* MealTableViewController.swift */,
 				BF4FA1091F389A4D00CEA1CF /* Main.storyboard */,
 				BF4FA10C1F389A4D00CEA1CF /* Assets.xcassets */,
 				BF4FA10E1F389A4D00CEA1CF /* LaunchScreen.storyboard */,
@@ -210,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4FA1081F389A4D00CEA1CF /* ViewController.swift in Sources */,
+				BF51A0101F3AFC160033E1D4 /* Meal.swift in Sources */,
+				BF4FA1081F389A4D00CEA1CF /* MealViewController.swift in Sources */,
 				BF4FA1331F3A0B0400CEA1CF /* RatingControl.swift in Sources */,
 				BF4FA1061F389A4D00CEA1CF /* AppDelegate.swift in Sources */,
+				BFF826981F3B2DF30079C183 /* MealTableViewController.swift in Sources */,
+				BF51A0121F3B06AE0033E1D4 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +322,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.3;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +367,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.3;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -433,6 +445,7 @@
 				BF4FA1211F389A4E00CEA1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4FA1221F389A4E00CEA1CF /* Build configuration list for PBXNativeTarget "GUNESTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +454,7 @@
 				BF4FA1241F389A4E00CEA1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
